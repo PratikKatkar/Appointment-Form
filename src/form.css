@@ -1,0 +1,96 @@
+ .form{
+    margin: 0  250px;
+    padding: 50px;
+    /* background-color: silver; */
+    border-radius: 25px;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 0px 29px 0px;
+    
+} 
+.btn-lg{
+    
+    
+        font-size: 17px;
+        
+        border-radius: 100px;
+        width: 170px; 
+
+}
+body {
+    margin: 0;
+    padding:0;
+    box-sizing: border-box;
+    margin: auto;
+    text-align: left;
+  }
+  /* Form.js */
+  /* Left and Right Sections */
+  
+  #title{
+    text-align: center;
+    margin: 10px auto;
+  }
+  
+  /* Client id etc */
+  #Ids_etc{  
+    margin-top:1rem;
+  }
+  
+  /* input{
+    width: 28rem;
+    height: 3rem;
+    border:2px solid rgb(20, 111, 163);
+    margin: auto;
+    text-align: left;
+    align-self: center;
+    /* border-radius: 1rem; */
+  /* } */ */
+  textarea{
+    width: 28rem;
+    height: 6rem;
+    border:2px solid rgb(20, 111, 163);
+    margin: auto;
+    text-align: center;
+    align-self: center;
+    border-radius: 1rem;
+  }
+  
+  #reset,#submit{
+    margin-top: 2rem;
+    background:rgb(20, 111, 163);
+    border-radius: 1rem;
+    width:10rem;
+    padding: 0.2rem 0.2rem 0.2rem 0.2rem;
+  }
+  .icons {
+    display: inline-block;
+    position:fixed;
+    width: 90px;
+    background-color: rgb(55, 110, 173) !important;
+    padding: 540px;
+    margin-top: 60px;
+  }
+  .icons1{
+    position: relative;
+    left: -22px;
+    
+
+  }
+  .icons i {
+    padding: 30px 0 10px 25px;
+    
+    
+    font-size: 22px;
+    color: white;
+    display: inline-block;
+  }
+  #praik{
+    margin:22px 70px ;
+    
+  }
+  .form-select {
+    margin-bottom: 15px;
+  }
+  .appdiv{
+
+    margin-left: 30px;
+}
