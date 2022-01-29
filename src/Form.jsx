@@ -41,9 +41,13 @@ const Form = () => {
     // console.log(newData);
     let p = JSON.stringify(newData);
     console.log(p);
+   
   }
 
   function submit(e) {
+    
+   
+
     e.preventDefault();
     fetch(url, {
       method: "POST",
@@ -63,39 +67,39 @@ const Form = () => {
         <div className="d-inline-flex flex-column p-5 bg-secondary text-white icons">
           <div className="icons1">
             <div>
-              {" "}
+            
               <i className="fas fa-user-check"></i>
             </div>
             <div>
-              {" "}
+            
               <i className="fa fa-desktop"></i>
             </div>
             <div>
-              {" "}
+            
               <i className="fa fa-address-book"></i>
             </div>
             <div>
-              {" "}
+            
               <i className="fas fa-user-check"></i>
             </div>
             <div>
-              {" "}
+            
               <i className="fa fa-home"></i>
             </div>
             <div>
-              {" "}
+            
               <i className="fa fa-desktop"></i>
             </div>
             <div>
-              {" "}
+            
               <i className="fa fa-clone"></i>
             </div>
             <div>
-              {" "}
+              
               <i className="fa fa-credit-card"></i>
             </div>
             <div>
-              {" "}
+            
               <i className="fa fa-clone"></i>
             </div>
           </div>
